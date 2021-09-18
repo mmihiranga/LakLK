@@ -26,15 +26,15 @@ import { Button } from 'react-native-paper';
     
   return (
     <View style={styles.container}>
-    <Text>Sign Up</Text>
-    <Text>Hello, I am your cat!</Text>
-
+  
    
   
    <Button icon="add-a-photo" mode="contained" onPress={() => navigation.navigate('CompanyView')}>
-    Press me
+    Company Advertisement 
    </Button>
-
+   <Button icon="add-a-photo" mode="contained" onPress={() => navigation.navigate('CompanyAddForm')}>
+    Company Add Form
+   </Button>
     
     </View>
     
